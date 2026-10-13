@@ -1,0 +1,12 @@
+{
+  "name": "darkside-toolkit",
+  "owner": { "name": "junksidetm" },
+  "description": "Curated hook-free skills and agents that coexist with context-mode.",
+  "plugins": [
+    {
+      "name": "darkside-toolkit",
+      "source": "./",
+      "description": "Curated hook-free skills and agents that coexist with context-mode."
+    }
+  ]
+}

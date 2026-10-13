@@ -1,0 +1,11 @@
+{
+  "name": "darkside-toolkit",
+  "version": "0.1.0",
+  "description": "Curated, hook-free skills and agents for Android/Kotlin/Compose, Flutter, React/Next, Python, TDD, review and security. Designed to sit beside context-mode without conflicts.",
+  "author": { "name": "junksidetm", "url": "https://github.com/junksidetm" },
+  "homepage": "https://github.com/junksidetm/darkside-toolkit",
+  "repository": "https://github.com/junksidetm/darkside-toolkit",
+  "license": "MIT",
+  "keywords": ["claude-code", "skills", "agents", "android", "kotlin", "compose", "flutter", "tdd", "code-review"],
+  "skills": ["./skills/"]
+}
