@@ -1,4 +1,4 @@
 validate:
   image: node:22
   script:
-    - node -e "const fs=require(\"fs\");for(const f of [\".claude-plugin/plugin.json\",\".claude-plugin/marketplace.json\"])JSON.parse(fs.readFileSync(f,\"utf8\"));const s=fs.readdirSync(\"skills\");for(const d of s)if(!fs.existsSync(\"skills/\"+d+\"/SKILL.md\"))throw new Error(\"missing SKILL.md: \"+d);console.log(\"OK\",s.length,\"skills\",fs.readdirSync(\"agents\").length,\"agents\")"
+    - node scripts/validate.js
